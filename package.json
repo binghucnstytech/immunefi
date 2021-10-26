@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.6",
+    "@nomiclabs/hardhat-ethers": "latest",
+    "@nomiclabs/hardhat-waffle": "latest",
+    "@openzeppelin/contracts": "latest",
+    "chai": "latest",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "latest",
+    "ethers": "latest",
+    "hardhat": "latest",
+    "hardhat-contract-sizer": "^2.1.1",
+    "mocha": "latest",
+    "prettier": "latest",
+    "prettier-plugin-solidity": "latest",
+    "solhint": "latest",
+    "solhint-plugin-prettier": "latest"
+  },
+  "scripts": {
+    "solhint": "./node_modules/.bin/solhint -f unix 'contracts/**/*.sol'",
+    "prettier:solidity": "./node_modules/.bin/prettier --write 'contracts/**/*.sol'"
+  }
+}
